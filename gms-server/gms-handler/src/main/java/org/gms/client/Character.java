@@ -91,6 +91,7 @@ import org.slf4j.LoggerFactory;
 
 import java.awt.*;
 import java.lang.ref.WeakReference;
+import java.nio.charset.StandardCharsets;
 import java.sql.*;
 import java.util.List;
 import java.util.*;
@@ -6540,8 +6541,10 @@ public class Character extends AbstractCharacterObject {
         chr.getMapleMount().setActive(false);
         QuickslotkeymappedDO quickSlotKeyMap = accountService.getQuickSlotKeyMap(charactersDO.getAccountid());
         if (quickSlotKeyMap != null) {
-            chr.setQuickSlotLoaded(NumberTool.LongToBytes(quickSlotKeyMap.getKeymap()));
+
+            chr.setQuickSlotLoaded(QuickslotBinding.normalize(quickSlotKeyMap.getKeymap()));
             chr.setQuickSlotKeyMapped(new QuickslotBinding(chr.getQuickSlotLoaded()));
+
         }
         return chr;
     }
@@ -7456,13 +7459,14 @@ public class Character extends AbstractCharacterObject {
                 // No quickslots, or no change.
                 boolean bQuickslotEquals = this.quickSlotKeyMapped == null || (this.quickSlotLoaded != null && Arrays.equals(this.quickSlotKeyMapped.GetKeybindings(), this.quickSlotLoaded));
                 if (!bQuickslotEquals) {
-                    long nQuickslotKeymapped = NumberTool.BytesToLong(this.quickSlotKeyMapped.GetKeybindings());
+//                    long nQuickslotKeymapped = NumberTool.BytesToLong(this.quickSlotKeyMapped.GetKeybindings());
+                    byte[] aQuickslotKeymapped = this.quickSlotKeyMapped.GetKeybindings();
 
                     // Quickslot key config
                     try (PreparedStatement ps = con.prepareStatement("INSERT INTO quickslotkeymapped (accountid, keymap) VALUES (?, ?) ON DUPLICATE KEY UPDATE keymap = ?;")) {
                         ps.setInt(1, this.getAccountId());
-                        ps.setLong(2, nQuickslotKeymapped);
-                        ps.setLong(3, nQuickslotKeymapped);
+                        ps.setBytes(2, aQuickslotKeymapped);
+                        ps.setBytes(3, aQuickslotKeymapped);
                         ps.executeUpdate();
                     }
                 }
@@ -7696,12 +7700,15 @@ public class Character extends AbstractCharacterObject {
                 // No quickslots, or no change.
                 boolean bQuickslotEquals = this.quickSlotKeyMapped == null || (this.quickSlotLoaded != null && Arrays.equals(this.quickSlotKeyMapped.GetKeybindings(), this.quickSlotLoaded));
                 if (!bQuickslotEquals) {
-                    long nQuickslotKeymapped = NumberTool.BytesToLong(this.quickSlotKeyMapped.GetKeybindings());
+//                    long nQuickslotKeymapped = NumberTool.BytesToLong(this.quickSlotKeyMapped.GetKeybindings());
+
+                    byte[] aQuickslotKeymapped = this.quickSlotKeyMapped.GetKeybindings();
+
 
                     try (final PreparedStatement psQuick = con.prepareStatement("INSERT INTO quickslotkeymapped (accountid, keymap) VALUES (?, ?) ON DUPLICATE KEY UPDATE keymap = ?;")) {
                         psQuick.setInt(1, this.getAccountId());
-                        psQuick.setLong(2, nQuickslotKeymapped);
-                        psQuick.setLong(3, nQuickslotKeymapped);
+                        psQuick.setBytes(2, aQuickslotKeymapped);
+                        psQuick.setBytes(3, aQuickslotKeymapped);
                         psQuick.executeUpdate();
                     }
                 }

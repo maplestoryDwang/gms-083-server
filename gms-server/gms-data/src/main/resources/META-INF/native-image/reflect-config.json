@@ -1,0 +1,1100 @@
+[
+{
+  "name":"[Lcom.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry;"
+},
+{
+  "name":"[Ljava.sql.Statement;"
+},
+{
+  "name":"ch.qos.logback.classic.BasicConfigurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.Logger",
+  "methods":[{"name":"log","parameterTypes":["org.slf4j.Marker","java.lang.String","int","java.lang.String","java.lang.Object[]","java.lang.Throwable"] }]
+},
+{
+  "name":"ch.qos.logback.classic.joran.SerializedModelConfigurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"ch.qos.logback.classic.util.DefaultJoranConfigurator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mybatisflex.core.BaseMapper",
+  "methods":[{"name":"selectAll","parameterTypes":[] }, {"name":"selectListByQuery","parameterTypes":["com.mybatisflex.core.query.QueryWrapper"] }, {"name":"selectOneById","parameterTypes":["java.io.Serializable"] }]
+},
+{
+  "name":"com.mybatisflex.core.provider.EntitySqlProvider",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"selectListByQuery","parameterTypes":["java.util.Map","org.apache.ibatis.builder.annotation.ProviderContext"] }, {"name":"selectOneById","parameterTypes":["java.util.Map","org.apache.ibatis.builder.annotation.ProviderContext"] }]
+},
+{
+  "name":"com.mybatisflex.core.provider.RowSqlProvider",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mybatisflex.core.row.RowMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"com.mysql.cj.conf.url.SingleConnectionUrl",
+  "methods":[{"name":"<init>","parameterTypes":["com.mysql.cj.conf.ConnectionUrlParser","java.util.Properties"] }]
+},
+{
+  "name":"com.mysql.cj.jdbc.AbandonedConnectionCleanupThread"
+},
+{
+  "name":"com.mysql.cj.jdbc.Driver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mysql.cj.log.StandardLogger",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.mysql.cj.protocol.StandardSocketFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ARCFOURCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESedeCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.zaxxer.hikari.HikariConfig",
+  "allDeclaredFields":true,
+  "methods":[{"name":"getJdbcUrl","parameterTypes":[] }]
+},
+{
+  "name":"com.zaxxer.hikari.HikariDataSource",
+  "methods":[{"name":"getUrl","parameterTypes":[] }]
+},
+{
+  "name":"com.zaxxer.hikari.pool.PoolBase",
+  "fields":[{"name":"catalog"}]
+},
+{
+  "name":"com.zaxxer.hikari.pool.PoolEntry",
+  "fields":[{"name":"state"}]
+},
+{
+  "name":"io.opentelemetry.api.GlobalOpenTelemetry"
+},
+{
+  "name":"java.io.FilePermission"
+},
+{
+  "name":"java.io.Serializable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.Class",
+  "methods":[{"name":"isRecord","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Cloneable",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true
+},
+{
+  "name":"java.lang.RuntimePermission"
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
+},
+{
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }]
+},
+{
+  "name":"java.net.NetPermission"
+},
+{
+  "name":"java.net.SocketPermission"
+},
+{
+  "name":"java.net.URLPermission",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.AllPermission"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.SecurityPermission"
+},
+{
+  "name":"java.sql.Connection",
+  "methods":[{"name":"prepareStatement","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.sql.PreparedStatement",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"execute","parameterTypes":[] }, {"name":"setInt","parameterTypes":["int","int"] }, {"name":"setLong","parameterTypes":["int","long"] }]
+},
+{
+  "name":"java.sql.ResultSet",
+  "methods":[{"name":"close","parameterTypes":[] }, {"name":"getBoolean","parameterTypes":["java.lang.String"] }, {"name":"getDate","parameterTypes":["java.lang.String"] }, {"name":"getInt","parameterTypes":["java.lang.String"] }, {"name":"getLong","parameterTypes":["java.lang.String"] }, {"name":"getMetaData","parameterTypes":[] }, {"name":"getString","parameterTypes":["java.lang.String"] }, {"name":"getTimestamp","parameterTypes":["java.lang.String"] }, {"name":"getType","parameterTypes":[] }, {"name":"isClosed","parameterTypes":[] }, {"name":"next","parameterTypes":[] }, {"name":"wasNull","parameterTypes":[] }]
+},
+{
+  "name":"java.sql.Statement",
+  "methods":[{"name":"close","parameterTypes":[] }, {"name":"getConnection","parameterTypes":[] }, {"name":"getMoreResults","parameterTypes":[] }, {"name":"getResultSet","parameterTypes":[] }, {"name":"getUpdateCount","parameterTypes":[] }]
+},
+{
+  "name":"java.util.ArrayList",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.PropertyPermission"
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"javax.smartcardio.CardPermission"
+},
+{
+  "name":"org.apache.ibatis.annotations.DeleteProvider",
+  "methods":[{"name":"method","parameterTypes":[] }, {"name":"type","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ibatis.annotations.InsertProvider",
+  "methods":[{"name":"method","parameterTypes":[] }, {"name":"type","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ibatis.annotations.SelectProvider",
+  "methods":[{"name":"method","parameterTypes":[] }, {"name":"type","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ibatis.annotations.UpdateProvider",
+  "methods":[{"name":"method","parameterTypes":[] }, {"name":"type","parameterTypes":[] }, {"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ibatis.javassist.util.proxy.ProxyFactory"
+},
+{
+  "name":"org.apache.ibatis.logging.slf4j.Slf4jImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.apache.ibatis.logging.stdout.StdOutImpl",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.apache.ibatis.scripting.defaults.RawLanguageDriver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ibatis.scripting.xmltags.XMLLanguageDriver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.gms.dao.entity.AccountsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getBanned","parameterTypes":[] }, {"name":"getBanreason","parameterTypes":[] }, {"name":"getBirthday","parameterTypes":[] }, {"name":"getCharacterslots","parameterTypes":[] }, {"name":"getCreatedat","parameterTypes":[] }, {"name":"getEmail","parameterTypes":[] }, {"name":"getGender","parameterTypes":[] }, {"name":"getGreason","parameterTypes":[] }, {"name":"getHwid","parameterTypes":[] }, {"name":"getIp","parameterTypes":[] }, {"name":"getLanguage","parameterTypes":[] }, {"name":"getLastlogin","parameterTypes":[] }, {"name":"getLoggedin","parameterTypes":[] }, {"name":"getMacs","parameterTypes":[] }, {"name":"getMaplePoint","parameterTypes":[] }, {"name":"getMute","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getNick","parameterTypes":[] }, {"name":"getNxCredit","parameterTypes":[] }, {"name":"getNxPrepaid","parameterTypes":[] }, {"name":"getPassword","parameterTypes":[] }, {"name":"getPic","parameterTypes":[] }, {"name":"getPin","parameterTypes":[] }, {"name":"getRewardpoints","parameterTypes":[] }, {"name":"getSitelogged","parameterTypes":[] }, {"name":"getTempban","parameterTypes":[] }, {"name":"getTos","parameterTypes":[] }, {"name":"getVotepoints","parameterTypes":[] }, {"name":"getWebadmin","parameterTypes":[] }, {"name":"setBanned","parameterTypes":["java.lang.Boolean"] }, {"name":"setBirthday","parameterTypes":["java.sql.Date"] }, {"name":"setCharacterslots","parameterTypes":["java.lang.Integer"] }, {"name":"setCreatedat","parameterTypes":["java.sql.Timestamp"] }, {"name":"setGender","parameterTypes":["java.lang.Integer"] }, {"name":"setGreason","parameterTypes":["java.lang.Integer"] }, {"name":"setHwid","parameterTypes":["java.lang.String"] }, {"name":"setId","parameterTypes":["java.lang.Integer"] }, {"name":"setLanguage","parameterTypes":["java.lang.Integer"] }, {"name":"setLastlogin","parameterTypes":["java.sql.Timestamp"] }, {"name":"setLoggedin","parameterTypes":["java.lang.Integer"] }, {"name":"setMacs","parameterTypes":["java.lang.String"] }, {"name":"setMaplePoint","parameterTypes":["java.lang.Integer"] }, {"name":"setMute","parameterTypes":["java.lang.Integer"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setNxCredit","parameterTypes":["java.lang.Integer"] }, {"name":"setNxPrepaid","parameterTypes":["java.lang.Integer"] }, {"name":"setPassword","parameterTypes":["java.lang.String"] }, {"name":"setPic","parameterTypes":["java.lang.String"] }, {"name":"setPin","parameterTypes":["java.lang.String"] }, {"name":"setRewardpoints","parameterTypes":["java.lang.Integer"] }, {"name":"setTempban","parameterTypes":["java.sql.Timestamp"] }, {"name":"setTos","parameterTypes":["java.lang.Boolean"] }, {"name":"setVotepoints","parameterTypes":["java.lang.Integer"] }, {"name":"setWebadmin","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.AllianceDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.AllianceguildsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.AreaInfoDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.AutobanConfigDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.BbsRepliesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.BbsThreadsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.BosslogDailyDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.BosslogWeeklyDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.BuddiesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.CharactersDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAllianceRank","parameterTypes":[] }, {"name":"getAp","parameterTypes":[] }, {"name":"getAriantPoints","parameterTypes":[] }, {"name":"getAttrDex","parameterTypes":[] }, {"name":"getAttrInt","parameterTypes":[] }, {"name":"getAttrLuk","parameterTypes":[] }, {"name":"getAttrStr","parameterTypes":[] }, {"name":"getBuddyCapacity","parameterTypes":[] }, {"name":"getCreatedate","parameterTypes":[] }, {"name":"getDataString","parameterTypes":[] }, {"name":"getDojoPoints","parameterTypes":[] }, {"name":"getEquipslots","parameterTypes":[] }, {"name":"getEtcslots","parameterTypes":[] }, {"name":"getExp","parameterTypes":[] }, {"name":"getFace","parameterTypes":[] }, {"name":"getFame","parameterTypes":[] }, {"name":"getFamilyId","parameterTypes":[] }, {"name":"getFinishedDojoTutorial","parameterTypes":[] }, {"name":"getFquest","parameterTypes":[] }, {"name":"getGachaexp","parameterTypes":[] }, {"name":"getGender","parameterTypes":[] }, {"name":"getGm","parameterTypes":[] }, {"name":"getGuildid","parameterTypes":[] }, {"name":"getGuildrank","parameterTypes":[] }, {"name":"getHair","parameterTypes":[] }, {"name":"getHasmerchant","parameterTypes":[] }, {"name":"getHp","parameterTypes":[] }, {"name":"getHpMpUsed","parameterTypes":[] }, {"name":"getJailexpire","parameterTypes":[] }, {"name":"getJob","parameterTypes":[] }, {"name":"getJobRank","parameterTypes":[] }, {"name":"getJobRankMove","parameterTypes":[] }, {"name":"getLastDojoStage","parameterTypes":[] }, {"name":"getLastExpGainTime","parameterTypes":[] }, {"name":"getLastLogoutTime","parameterTypes":[] }, {"name":"getLevel","parameterTypes":[] }, {"name":"getMap","parameterTypes":[] }, {"name":"getMarriageItemId","parameterTypes":[] }, {"name":"getMatchcardlosses","parameterTypes":[] }, {"name":"getMatchcardties","parameterTypes":[] }, {"name":"getMatchcardwins","parameterTypes":[] }, {"name":"getMaxhp","parameterTypes":[] }, {"name":"getMaxmp","parameterTypes":[] }, {"name":"getMerchantmesos","parameterTypes":[] }, {"name":"getMeso","parameterTypes":[] }, {"name":"getMessengerid","parameterTypes":[] }, {"name":"getMessengerposition","parameterTypes":[] }, {"name":"getMonsterbookcover","parameterTypes":[] }, {"name":"getMountexp","parameterTypes":[] }, {"name":"getMountlevel","parameterTypes":[] }, {"name":"getMounttiredness","parameterTypes":[] }, {"name":"getMp","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getOmoklosses","parameterTypes":[] }, {"name":"getOmokties","parameterTypes":[] }, {"name":"getOmokwins","parameterTypes":[] }, {"name":"getPartnerId","parameterTypes":[] }, {"name":"getParty","parameterTypes":[] }, {"name":"getPartySearch","parameterTypes":[] }, {"name":"getPqpoints","parameterTypes":[] }, {"name":"getRank","parameterTypes":[] }, {"name":"getRankMove","parameterTypes":[] }, {"name":"getReborns","parameterTypes":[] }, {"name":"getSetupslots","parameterTypes":[] }, {"name":"getSkincolor","parameterTypes":[] }, {"name":"getSp","parameterTypes":[] }, {"name":"getSpawnpoint","parameterTypes":[] }, {"name":"getSummonValue","parameterTypes":[] }, {"name":"getUseslots","parameterTypes":[] }, {"name":"getVanquisherKills","parameterTypes":[] }, {"name":"getVanquisherStage","parameterTypes":[] }, {"name":"getWorld","parameterTypes":[] }, {"name":"setAccountid","parameterTypes":["java.lang.Integer"] }, {"name":"setAllianceRank","parameterTypes":["java.lang.Integer"] }, {"name":"setAp","parameterTypes":["java.lang.Integer"] }, {"name":"setAriantPoints","parameterTypes":["java.lang.Integer"] }, {"name":"setAttrDex","parameterTypes":["java.lang.Integer"] }, {"name":"setAttrInt","parameterTypes":["java.lang.Integer"] }, {"name":"setAttrLuk","parameterTypes":["java.lang.Integer"] }, {"name":"setAttrStr","parameterTypes":["java.lang.Integer"] }, {"name":"setBuddyCapacity","parameterTypes":["java.lang.Integer"] }, {"name":"setCreatedate","parameterTypes":["java.sql.Timestamp"] }, {"name":"setDataString","parameterTypes":["java.lang.String"] }, {"name":"setDojoPoints","parameterTypes":["java.lang.Integer"] }, {"name":"setEquipslots","parameterTypes":["java.lang.Integer"] }, {"name":"setEtcslots","parameterTypes":["java.lang.Integer"] }, {"name":"setExp","parameterTypes":["java.lang.Integer"] }, {"name":"setFace","parameterTypes":["java.lang.Integer"] }, {"name":"setFame","parameterTypes":["java.lang.Integer"] }, {"name":"setFamilyId","parameterTypes":["java.lang.Integer"] }, {"name":"setFinishedDojoTutorial","parameterTypes":["java.lang.Integer"] }, {"name":"setFquest","parameterTypes":["java.lang.Integer"] }, {"name":"setGachaexp","parameterTypes":["java.lang.Integer"] }, {"name":"setGender","parameterTypes":["java.lang.Integer"] }, {"name":"setGm","parameterTypes":["java.lang.Integer"] }, {"name":"setGuildid","parameterTypes":["java.lang.Integer"] }, {"name":"setGuildrank","parameterTypes":["java.lang.Integer"] }, {"name":"setHair","parameterTypes":["java.lang.Integer"] }, {"name":"setHasmerchant","parameterTypes":["java.lang.Boolean"] }, {"name":"setHp","parameterTypes":["java.lang.Integer"] }, {"name":"setHpMpUsed","parameterTypes":["java.lang.Integer"] }, {"name":"setId","parameterTypes":["java.lang.Integer"] }, {"name":"setJailexpire","parameterTypes":["java.lang.Long"] }, {"name":"setJob","parameterTypes":["java.lang.Integer"] }, {"name":"setJobRank","parameterTypes":["java.lang.Integer"] }, {"name":"setJobRankMove","parameterTypes":["java.lang.Integer"] }, {"name":"setLastDojoStage","parameterTypes":["java.lang.Integer"] }, {"name":"setLastExpGainTime","parameterTypes":["java.sql.Timestamp"] }, {"name":"setLastLogoutTime","parameterTypes":["java.sql.Timestamp"] }, {"name":"setLevel","parameterTypes":["java.lang.Integer"] }, {"name":"setMap","parameterTypes":["java.lang.Integer"] }, {"name":"setMarriageItemId","parameterTypes":["java.lang.Integer"] }, {"name":"setMatchcardlosses","parameterTypes":["java.lang.Integer"] }, {"name":"setMatchcardties","parameterTypes":["java.lang.Integer"] }, {"name":"setMatchcardwins","parameterTypes":["java.lang.Integer"] }, {"name":"setMaxhp","parameterTypes":["java.lang.Integer"] }, {"name":"setMaxmp","parameterTypes":["java.lang.Integer"] }, {"name":"setMerchantmesos","parameterTypes":["java.lang.Integer"] }, {"name":"setMeso","parameterTypes":["java.lang.Integer"] }, {"name":"setMessengerid","parameterTypes":["java.lang.Integer"] }, {"name":"setMessengerposition","parameterTypes":["java.lang.Integer"] }, {"name":"setMonsterbookcover","parameterTypes":["java.lang.Integer"] }, {"name":"setMountexp","parameterTypes":["java.lang.Integer"] }, {"name":"setMountlevel","parameterTypes":["java.lang.Integer"] }, {"name":"setMounttiredness","parameterTypes":["java.lang.Integer"] }, {"name":"setMp","parameterTypes":["java.lang.Integer"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setOmoklosses","parameterTypes":["java.lang.Integer"] }, {"name":"setOmokties","parameterTypes":["java.lang.Integer"] }, {"name":"setOmokwins","parameterTypes":["java.lang.Integer"] }, {"name":"setPartnerId","parameterTypes":["java.lang.Integer"] }, {"name":"setParty","parameterTypes":["java.lang.Integer"] }, {"name":"setPartySearch","parameterTypes":["java.lang.Boolean"] }, {"name":"setPqpoints","parameterTypes":["java.lang.Integer"] }, {"name":"setRank","parameterTypes":["java.lang.Integer"] }, {"name":"setRankMove","parameterTypes":["java.lang.Integer"] }, {"name":"setReborns","parameterTypes":["java.lang.Integer"] }, {"name":"setSetupslots","parameterTypes":["java.lang.Integer"] }, {"name":"setSkincolor","parameterTypes":["java.lang.Integer"] }, {"name":"setSp","parameterTypes":["java.lang.String"] }, {"name":"setSpawnpoint","parameterTypes":["java.lang.Integer"] }, {"name":"setSummonValue","parameterTypes":["java.lang.Long"] }, {"name":"setUseslots","parameterTypes":["java.lang.Integer"] }, {"name":"setVanquisherKills","parameterTypes":["java.lang.Integer"] }, {"name":"setVanquisherStage","parameterTypes":["java.lang.Integer"] }, {"name":"setWorld","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.CommandInfoDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.CooldownsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.DropDataDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.DropDataGlobalDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.DueyitemsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.DueypackagesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.EventstatsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.ExtendValueDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.FamelogDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.FamilyCharacterDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.FamilyEntitlementDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.FlywaySchemaHistoryDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.FredstorageDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.GachaponRewardDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.GachaponRewardPoolDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.GameConfigDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.GiftsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.GuildsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.HpMpAlertDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.HwidaccountsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.HwidbansDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.InventoryequipmentDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAcc","parameterTypes":[] }, {"name":"getAvoid","parameterTypes":[] }, {"name":"getDex","parameterTypes":[] }, {"name":"getHands","parameterTypes":[] }, {"name":"getHp","parameterTypes":[] }, {"name":"getInte","parameterTypes":[] }, {"name":"getItemexp","parameterTypes":[] }, {"name":"getItemlevel","parameterTypes":[] }, {"name":"getJump","parameterTypes":[] }, {"name":"getLevel","parameterTypes":[] }, {"name":"getLocked","parameterTypes":[] }, {"name":"getLuk","parameterTypes":[] }, {"name":"getMatk","parameterTypes":[] }, {"name":"getMdef","parameterTypes":[] }, {"name":"getMp","parameterTypes":[] }, {"name":"getRingid","parameterTypes":[] }, {"name":"getSpeed","parameterTypes":[] }, {"name":"getStr","parameterTypes":[] }, {"name":"getUpgradeslots","parameterTypes":[] }, {"name":"getVicious","parameterTypes":[] }, {"name":"getWatk","parameterTypes":[] }, {"name":"getWdef","parameterTypes":[] }, {"name":"setAcc","parameterTypes":["java.lang.Integer"] }, {"name":"setAvoid","parameterTypes":["java.lang.Integer"] }, {"name":"setDex","parameterTypes":["java.lang.Integer"] }, {"name":"setHands","parameterTypes":["java.lang.Integer"] }, {"name":"setHp","parameterTypes":["java.lang.Integer"] }, {"name":"setInte","parameterTypes":["java.lang.Integer"] }, {"name":"setInventoryequipmentid","parameterTypes":["java.lang.Long"] }, {"name":"setInventoryitemid","parameterTypes":["java.lang.Long"] }, {"name":"setItemexp","parameterTypes":["java.lang.Integer"] }, {"name":"setItemlevel","parameterTypes":["java.lang.Integer"] }, {"name":"setJump","parameterTypes":["java.lang.Integer"] }, {"name":"setLevel","parameterTypes":["java.lang.Integer"] }, {"name":"setLocked","parameterTypes":["java.lang.Integer"] }, {"name":"setLuk","parameterTypes":["java.lang.Integer"] }, {"name":"setMatk","parameterTypes":["java.lang.Integer"] }, {"name":"setMdef","parameterTypes":["java.lang.Integer"] }, {"name":"setMp","parameterTypes":["java.lang.Integer"] }, {"name":"setRingid","parameterTypes":["java.lang.Integer"] }, {"name":"setSpeed","parameterTypes":["java.lang.Integer"] }, {"name":"setStr","parameterTypes":["java.lang.Integer"] }, {"name":"setUpgradeslots","parameterTypes":["java.lang.Integer"] }, {"name":"setVicious","parameterTypes":["java.lang.Integer"] }, {"name":"setWatk","parameterTypes":["java.lang.Integer"] }, {"name":"setWdef","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.InventoryitemsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAccountid","parameterTypes":[] }, {"name":"getCharacterid","parameterTypes":[] }, {"name":"getExpiration","parameterTypes":[] }, {"name":"getFlag","parameterTypes":[] }, {"name":"getGiftFrom","parameterTypes":[] }, {"name":"getInventorytype","parameterTypes":[] }, {"name":"getItemid","parameterTypes":[] }, {"name":"getOwner","parameterTypes":[] }, {"name":"getPetid","parameterTypes":[] }, {"name":"getPosition","parameterTypes":[] }, {"name":"getQuantity","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"setAccountid","parameterTypes":["java.lang.Integer"] }, {"name":"setCharacterid","parameterTypes":["java.lang.Integer"] }, {"name":"setExpiration","parameterTypes":["java.lang.Long"] }, {"name":"setFlag","parameterTypes":["java.lang.Integer"] }, {"name":"setGiftFrom","parameterTypes":["java.lang.String"] }, {"name":"setInventoryitemid","parameterTypes":["java.lang.Long"] }, {"name":"setInventorytype","parameterTypes":["java.lang.Integer"] }, {"name":"setItemid","parameterTypes":["java.lang.Integer"] }, {"name":"setOwner","parameterTypes":["java.lang.String"] }, {"name":"setPetid","parameterTypes":["java.lang.Integer"] }, {"name":"setPosition","parameterTypes":["java.lang.Integer"] }, {"name":"setQuantity","parameterTypes":["java.lang.Integer"] }, {"name":"setType","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.InventorymerchantDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.IpbansDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.KeymapDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAction","parameterTypes":[] }, {"name":"getKey","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"setAction","parameterTypes":["java.lang.Integer"] }, {"name":"setCharacterid","parameterTypes":["java.lang.Integer"] }, {"name":"setId","parameterTypes":["java.lang.Integer"] }, {"name":"setKey","parameterTypes":["java.lang.Integer"] }, {"name":"setType","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.LangResourcesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MacbansDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MacfiltersDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MakercreatedataDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MakerreagentdataDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MakerrecipedataDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MakerrewarddataDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MarriagesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MedalmapsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getMapid","parameterTypes":[] }, {"name":"getQueststatusid","parameterTypes":[] }, {"name":"setCharacterid","parameterTypes":["java.lang.Integer"] }, {"name":"setId","parameterTypes":["java.lang.Integer"] }, {"name":"setMapid","parameterTypes":["java.lang.Integer"] }, {"name":"setQueststatusid","parameterTypes":["java.lang.Long"] }]
+},
+{
+  "name":"org.gms.dao.entity.ModifiedCashItemDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MonsterbookDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getCardid","parameterTypes":[] }, {"name":"getLevel","parameterTypes":[] }, {"name":"setCardid","parameterTypes":["java.lang.Integer"] }, {"name":"setCharid","parameterTypes":["java.lang.Integer"] }, {"name":"setLevel","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.MonstercarddataDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MtsCartDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.MtsItemsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.NamechangesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.NewyearDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.NotesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.NxcodeDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.NxcodeItemsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.NxcouponsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.PetignoresDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItemid","parameterTypes":[] }, {"name":"setId","parameterTypes":["java.lang.Long"] }, {"name":"setItemid","parameterTypes":["java.lang.Integer"] }, {"name":"setPetid","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.PetsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getCloseness","parameterTypes":[] }, {"name":"getFlag","parameterTypes":[] }, {"name":"getFullness","parameterTypes":[] }, {"name":"getLevel","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getSummoned","parameterTypes":[] }, {"name":"setCloseness","parameterTypes":["java.lang.Long"] }, {"name":"setFlag","parameterTypes":["java.lang.Long"] }, {"name":"setFullness","parameterTypes":["java.lang.Long"] }, {"name":"setLevel","parameterTypes":["java.lang.Long"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setPetid","parameterTypes":["java.lang.Long"] }, {"name":"setSummoned","parameterTypes":["java.lang.Boolean"] }]
+},
+{
+  "name":"org.gms.dao.entity.PlayerdiseasesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.PlayernpcsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.PlayernpcsEquipDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.PlayernpcsFieldDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.PlifeDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.QuestactionsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.QuestprogressDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getProgress","parameterTypes":[] }, {"name":"getProgressid","parameterTypes":[] }, {"name":"getQueststatusid","parameterTypes":[] }, {"name":"setCharacterid","parameterTypes":["java.lang.Integer"] }, {"name":"setId","parameterTypes":["java.lang.Long"] }, {"name":"setProgress","parameterTypes":["java.lang.String"] }, {"name":"setProgressid","parameterTypes":["java.lang.Integer"] }, {"name":"setQueststatusid","parameterTypes":["java.lang.Long"] }]
+},
+{
+  "name":"org.gms.dao.entity.QuestrequirementsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.QueststatusDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getCompleted","parameterTypes":[] }, {"name":"getExpires","parameterTypes":[] }, {"name":"getForfeited","parameterTypes":[] }, {"name":"getInfo","parameterTypes":[] }, {"name":"getQuest","parameterTypes":[] }, {"name":"getStatus","parameterTypes":[] }, {"name":"getTime","parameterTypes":[] }, {"name":"setCharacterid","parameterTypes":["java.lang.Integer"] }, {"name":"setCompleted","parameterTypes":["java.lang.Integer"] }, {"name":"setExpires","parameterTypes":["java.lang.Long"] }, {"name":"setForfeited","parameterTypes":["java.lang.Integer"] }, {"name":"setInfo","parameterTypes":["java.lang.Integer"] }, {"name":"setQuest","parameterTypes":["java.lang.Integer"] }, {"name":"setQueststatusid","parameterTypes":["java.lang.Long"] }, {"name":"setStatus","parameterTypes":["java.lang.Integer"] }, {"name":"setTime","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.QuickslotkeymappedDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.ReactordropsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.ReportsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.ResponsesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.RingsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.SavedlocationsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getLocationtype","parameterTypes":[] }, {"name":"getMap","parameterTypes":[] }, {"name":"getPortal","parameterTypes":[] }, {"name":"setCharacterid","parameterTypes":["java.lang.Integer"] }, {"name":"setId","parameterTypes":["java.lang.Integer"] }, {"name":"setLocationtype","parameterTypes":["java.lang.String"] }, {"name":"setMap","parameterTypes":["java.lang.Integer"] }, {"name":"setPortal","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.ServerQueueDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.ShopitemsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.ShopsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.SkillmacrosDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.SkillsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getExpiration","parameterTypes":[] }, {"name":"getMasterlevel","parameterTypes":[] }, {"name":"getSkillid","parameterTypes":[] }, {"name":"getSkilllevel","parameterTypes":[] }, {"name":"setCharacterid","parameterTypes":["java.lang.Integer"] }, {"name":"setExpiration","parameterTypes":["java.lang.Long"] }, {"name":"setId","parameterTypes":["java.lang.Integer"] }, {"name":"setMasterlevel","parameterTypes":["java.lang.Integer"] }, {"name":"setSkillid","parameterTypes":["java.lang.Integer"] }, {"name":"setSkilllevel","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.SpecialcashitemsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.StoragesDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getMeso","parameterTypes":[] }, {"name":"getSlots","parameterTypes":[] }, {"name":"getWorld","parameterTypes":[] }, {"name":"setAccountid","parameterTypes":["java.lang.Integer"] }, {"name":"setMeso","parameterTypes":["java.lang.Integer"] }, {"name":"setSlots","parameterTypes":["java.lang.Integer"] }, {"name":"setStorageid","parameterTypes":["java.lang.Long"] }, {"name":"setWorld","parameterTypes":["java.lang.Integer"] }]
+},
+{
+  "name":"org.gms.dao.entity.TrocklocationsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.WishlistsDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.entity.WorldtransfersDO",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.gms.dao.mapper.AccountsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.AllianceMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.AllianceguildsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.AreaInfoMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.AutobanConfigMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.BbsRepliesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.BbsThreadsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.BosslogDailyMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.BosslogWeeklyMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.BuddiesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.CharactersMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.CommandInfoMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.CooldownsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.DropDataGlobalMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.DropDataMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.DueyitemsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.DueypackagesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.EventstatsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ExtendValueMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.FamelogMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.FamilyCharacterMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.FamilyEntitlementMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.FlywaySchemaHistoryMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.FredstorageMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.GachaponRewardMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.GachaponRewardPoolMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.GameConfigMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.GiftsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.GuildsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.HpMpAlertMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.HwidaccountsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.HwidbansMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.InventoryequipmentMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.InventoryitemsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.InventorymerchantMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.IpbansMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.KeymapMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.LangResourcesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MacbansMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MacfiltersMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MakercreatedataMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MakerreagentdataMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MakerrecipedataMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MakerrewarddataMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MarriagesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MedalmapsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ModifiedCashItemMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MonsterbookMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MonstercarddataMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MtsCartMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.MtsItemsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.NamechangesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.NewyearMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.NotesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.NxcodeItemsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.NxcodeMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.NxcouponsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.PetignoresMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.PetsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.PlayerdiseasesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.PlayernpcsEquipMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.PlayernpcsFieldMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.PlayernpcsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.PlifeMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.QuestactionsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.QuestprogressMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.QuestrequirementsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.QueststatusMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.QuickslotkeymappedMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ReactordropsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ReportsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ResponsesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.RingsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.SavedlocationsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ServerQueueMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ShopitemsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.ShopsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.SkillmacrosMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.SkillsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.SpecialcashitemsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.StoragesMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.TrocklocationsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.WishlistsMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.gms.dao.mapper.WorldtransfersMapper",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"sun.security.provider.DRBG",
+  "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$TLSContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

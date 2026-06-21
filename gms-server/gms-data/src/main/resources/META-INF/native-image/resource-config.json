@@ -1,0 +1,379 @@
+{
+  "resources":{
+  "includes":[
+    { "pattern": ".*Mapper.class$" },
+    { "pattern": ".*mapper.*\\.xml$" },
+    {
+    "pattern":"\\Q/com/mybatisflex/core/row/RowMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/AccountsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/AllianceMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/AllianceguildsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/AreaInfoMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/AutobanConfigMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/BbsRepliesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/BbsThreadsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/BosslogDailyMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/BosslogWeeklyMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/BuddiesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/CharactersMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/CommandInfoMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/CooldownsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/DropDataGlobalMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/DropDataMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/DueyitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/DueypackagesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/EventstatsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ExtendValueMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/FamelogMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/FamilyCharacterMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/FamilyEntitlementMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/FlywaySchemaHistoryMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/FredstorageMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/GachaponRewardMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/GachaponRewardPoolMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/GameConfigMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/GiftsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/GuildsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/HpMpAlertMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/HwidaccountsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/HwidbansMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/InventoryequipmentMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/InventoryitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/InventorymerchantMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/IpbansMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/KeymapMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/LangResourcesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MacbansMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MacfiltersMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MakercreatedataMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MakerreagentdataMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MakerrecipedataMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MakerrewarddataMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MarriagesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MedalmapsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ModifiedCashItemMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MonsterbookMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MonstercarddataMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MtsCartMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/MtsItemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/NamechangesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/NewyearMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/NotesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/NxcodeItemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/NxcodeMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/NxcouponsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/PetignoresMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/PetsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/PlayerdiseasesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/PlayernpcsEquipMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/PlayernpcsFieldMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/PlayernpcsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/PlifeMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/QuestactionsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/QuestprogressMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/QuestrequirementsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/QueststatusMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/QuickslotkeymappedMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ReactordropsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ReportsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ResponsesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/RingsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/SavedlocationsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ServerQueueMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ShopitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/ShopsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/SkillmacrosMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/SkillsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/SpecialcashitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/StoragesMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/TrocklocationsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/WishlistsMapper.xml\\E"
+  }, {
+    "pattern":"\\Q/org/gms/dao/mapper/WorldtransfersMapper.xml\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/ch.qos.logback.classic.spi.Configurator\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.InetAddressResolverProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.URLStreamHandlerProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.sql.Driver\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.time.zone.ZoneRulesProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.util.spi.ResourceBundleControlProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+  }, {
+    "pattern":"\\Q\\E"
+  }, {
+    "pattern":"\\Qcom/mybatisflex/core/row/RowMapper.xml\\E"
+  }, {
+    "pattern":"\\Qlogback-test.scmo\\E"
+  }, {
+    "pattern":"\\Qlogback-test.xml\\E"
+  }, {
+    "pattern":"\\Qlogback.scmo\\E"
+  }, {
+    "pattern":"\\Qlogback.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/AccountsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/AllianceMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/AllianceguildsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/AreaInfoMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/AutobanConfigMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/BbsRepliesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/BbsThreadsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/BosslogDailyMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/BosslogWeeklyMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/BuddiesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/CharactersMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/CommandInfoMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/CooldownsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/DropDataGlobalMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/DropDataMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/DueyitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/DueypackagesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/EventstatsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ExtendValueMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/FamelogMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/FamilyCharacterMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/FamilyEntitlementMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/FlywaySchemaHistoryMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/FredstorageMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/GachaponRewardMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/GachaponRewardPoolMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/GameConfigMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/GiftsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/GuildsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/HpMpAlertMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/HwidaccountsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/HwidbansMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/InventoryequipmentMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/InventoryitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/InventorymerchantMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/IpbansMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/KeymapMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/LangResourcesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MacbansMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MacfiltersMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MakercreatedataMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MakerreagentdataMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MakerrecipedataMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MakerrewarddataMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MarriagesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MedalmapsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ModifiedCashItemMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MonsterbookMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MonstercarddataMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MtsCartMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/MtsItemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/NamechangesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/NewyearMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/NotesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/NxcodeItemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/NxcodeMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/NxcouponsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/PetignoresMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/PetsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/PlayerdiseasesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/PlayernpcsEquipMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/PlayernpcsFieldMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/PlayernpcsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/PlifeMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/QuestactionsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/QuestprogressMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/QuestrequirementsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/QueststatusMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/QuickslotkeymappedMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ReactordropsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ReportsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ResponsesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/RingsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/SavedlocationsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ServerQueueMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ShopitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/ShopsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/SkillmacrosMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/SkillsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/SpecialcashitemsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/StoragesMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/TrocklocationsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/WishlistsMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper/WorldtransfersMapper.xml\\E"
+  }, {
+    "pattern":"\\Qorg/gms/dao/mapper\\E"
+  }]},
+  "bundles":[{
+    "name":"com.mysql.cj.LocalizedErrorMessages",
+    "locales":[""]
+  }]
+}

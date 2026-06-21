@@ -10,3 +10,8 @@ mysql库的show view权限
 ### idea 配置
 
 如果是直接打开的gms-server目录运行，需要在server的编译配置里设置 Working directory 为 gms-handler
+
+
+## 注意事项
+1. 原生GMS083没有回退卷轴，需要删掉
+   delete from shopitems where itemid = 2030100 

@@ -88,7 +88,9 @@ public final class NPCTalkHandler extends AbstractPacketHandler {
                             c.sendPacket(PacketCreator.enableActions());
                             return;
                         }
-
+                        if (GameConfig.getServerBoolean("use_debug")) {
+                            log.info("打开商店：{}({}) ",  npc.getName() ,npc.getId());
+                        }
                         npc.sendShop(c);
                     }
                 }
